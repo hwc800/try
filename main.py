@@ -9,7 +9,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。
 
 
-def handle_git_merge_failure():
+def handle_git_merge_failure(dddd):
     """
     处理 git merge --strategy-option=theirs MergeAssist 命令执行失败的情况
     """
