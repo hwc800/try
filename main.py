@@ -14,8 +14,6 @@ def handle_git_merge_failure(dddd):
     处理 git merge --strategy-option=theirs MergeAssist 命令执行失败的情况
     """
     import subprocess
-    import os
-    
     def run_command(cmd):
         """执行命令并返回结果"""
         try:
