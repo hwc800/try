@@ -28,20 +28,14 @@ def handle_git_merge_failure():
     else:
         print("合并失败！")
         print("错误信息:", stderr)
-        
-        # 处理合并冲突
-        if "CONFLICT" in stderr:
-            print("检测到合并冲突，处理方案：")
-            print("1. 手动解决冲突后提交")
-            print("2. 或者使用其他合并策略")
-            print("3. 或者中止合并: git merge --abort")
+
         
         return False
 
 # 顶顶顶
 # 按装订区域中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    print_hi('PyCharm')
+
     
     # 测试git合并处理函数
     print("\n=== Git合并故障处理测试 ===")
