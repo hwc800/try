@@ -4,12 +4,7 @@
 # 按 双击 Shift 在所有地方搜索类、文件、工具窗口、操作和设置。
 
 
-def print_hsssssssssssssssssssi(name):
-    # 在下面的代码行中使用断点来调试脚本。
-    print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。
-
-
-def handle_git_merge_failure(dddd):
+def handle_git_merge_failure():
     """
     处理 git merge --strategy-option=theirs MergeAssist 命令执行失败的情况
     """
@@ -28,7 +23,7 @@ def handle_git_merge_failure(dddd):
     
     if return_code == 0:
         print("合并成功！")
-        print(stdout)
+
         return True
     else:
         print("合并失败！")
