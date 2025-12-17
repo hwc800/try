@@ -50,7 +50,7 @@ if __name__ == '__main__':
     
     # 测试git合并处理函数
     print("\n=== Git合并故障处理测试 ===")
-    result = handle_git_merge_failure()
+    result = handle_git_merge_failure_eeee()
     print(f"处理结果: {'成功' if result else '失败'}")
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
